@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    left: 50%;
+    top:40px;
+    transform: translateX(-50%);
+    border: 3px solid black;
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.first-tab-btn,
+.second-tab-btn,
+.third-tab-btn,
+.fourth-tab-btn {
+    border: none;
+    background-color:transparent;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Comfortaa;
+    font-weight: 800;
+    color: gray;
+}
+
+
+.first-tab, 
+.second-tab,
+.third-tab,
+.fourth-tab {
+    padding: 20px 10px;
+    margin: 15px;
+    font-family: Comfortaa;
+    font-weight: 700;
+    display: none;
+}
+
+.first-tab {
+    border: 3px solid green;
+    border-radius: 16px;
+    display: block;
+}
+
+.second-tab {
+    border: 3px solid gray;
+    border-radius: 16px;
+}
+
+.third-tab {
+    border: 3px solid blue;
+    border-radius: 16px;
+}
+
+.fourth-tab {
+    border: 3px solid red;
+    border-radius: 16px;
+}
